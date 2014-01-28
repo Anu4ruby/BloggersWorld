@@ -1,0 +1,4 @@
+{"ts":1381464926993,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1381464938893,"patch":[[{"diffs":[[1,"#index-page{\n   /*background-color: #dfdfdf;*/\n   color: #000000;  \n   font-weight: bold;\n   margin: 15px;\n    \n}"]],"start1":0,"start2":0,"length1":0,"length2":113}]],"length":113,"saved":false}
+{"ts":1381464952132,"patch":[[{"diffs":[[0,"or: "],[-1,"#000000"],[1,"blue"],[0,";  \n"]],"start1":53,"start2":53,"length1":15,"length2":12}]],"length":110,"saved":false}
+{"ts":1381464994941,"patch":[[{"diffs":[[0,"ld;\n"],[-1,"   margin: 15px;\n    \n"],[0,"}"]],"start1":83,"start2":83,"length1":27,"length2":5}]],"length":88,"saved":false}

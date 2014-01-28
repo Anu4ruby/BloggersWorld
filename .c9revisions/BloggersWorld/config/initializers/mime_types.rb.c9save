@@ -1,0 +1,1 @@
+{"ts":1381346192772,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Be sure to restart your server when you modify this file.\n\n# Add new mime types for use in respond_to blocks:\n# Mime::Type.register \"text/richtext\", :rtf\n# Mime::Type.register_alias \"text/html\", :iphone\n"]],"start1":0,"start2":0,"length1":0,"length2":205}]],"length":205}

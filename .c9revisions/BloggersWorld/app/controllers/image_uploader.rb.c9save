@@ -1,0 +1,2 @@
+{"ts":1370798248396,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1370798289657,"patch":[[{"diffs":[[1,"class ImageUploader < CarrierWave::Uploader::Base\r\n  include CarrierWave::RMagick\r\n\r\n  storage :file\r\n\r\n  def store_dir\r\n    \"uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}\"\r\n  end\r\n\r\n  version :thumb do\r\n    process :resize_to_limit => [200, 200]\r\n  end\r\nend"]],"start1":0,"start2":0,"length1":0,"length2":277}]],"length":277,"saved":false}

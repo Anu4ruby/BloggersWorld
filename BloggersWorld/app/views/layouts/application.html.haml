@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title Bloggers Tryst!
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body 
+    .container
+      %h1
+        Welcome to the world of Bloggers!
+      = render :partial => 'shared/nav'
+      = render :partial => 'shared/session'
+      = render :partial => 'shared/search'
+      
+      = yield
+      %p
+        %h3
+          All rights reserved!

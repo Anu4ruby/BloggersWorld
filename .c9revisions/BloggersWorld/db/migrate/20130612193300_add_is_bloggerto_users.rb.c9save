@@ -1,0 +1,2 @@
+{"ts":1371065572308,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class AddIsBloggertoUsers < ActiveRecord::Migration\n  def up\n  end\n\n  def down\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":89}]],"length":89}
+{"contributors":[],"silentsave":false,"ts":1371065650511,"patch":[[{"diffs":[[0,"def "],[-1,"up\n  end\n\n  def dow"],[1,"change\n    add_column :users, :is_blogger, :boolea"],[0,"n\n  "]],"start1":54,"start2":54,"length1":27,"length2":58}]],"length":120,"saved":false}

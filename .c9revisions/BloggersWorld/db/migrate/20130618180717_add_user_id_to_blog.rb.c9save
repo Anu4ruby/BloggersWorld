@@ -1,0 +1,1 @@
+{"ts":1371578870979,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class AddUserIdToBlog < ActiveRecord::Migration\n  def change\n    add_column :blogs, :user_id, :integer\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":113}]],"length":113}

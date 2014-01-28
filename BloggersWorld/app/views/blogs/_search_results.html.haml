@@ -1,0 +1,17 @@
+%table
+  %tr
+  #search-results
+    %td Name
+    %td Title
+    %td created_at 
+  - @blogs.each do |blog|  
+    %tr
+      %td= blog.Name  
+      %td= blog.Title  
+      %td= blog.created_at
+      %td 
+        = link_to 'Show', blog_url(blog)
+        = link_to 'Edit', edit_blog_url(blog)
+        = link_to 'Delete', blog_url(blog), :method => :delete, :confirm => 'Are you sure?'
+=link_to 'New', new_blog_url
+         

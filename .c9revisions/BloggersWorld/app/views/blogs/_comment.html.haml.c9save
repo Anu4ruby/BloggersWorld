@@ -1,0 +1,1 @@
+{"ts":1370224779129,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,".comment\r\n  %i\r\n    = h comment.name\r\n    says:\r\n  %br/\r\n  = simple_format h(comment.body)\r\n  = link_to 'Destroy Comment', comment, |\r\n    :confirm => 'Are you sure?',        |\r\n    :method => :delete?    |"]],"start1":0,"start2":0,"length1":0,"length2":206}]],"length":206}

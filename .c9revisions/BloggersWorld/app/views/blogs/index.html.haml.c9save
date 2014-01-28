@@ -1,0 +1,20 @@
+{"ts":1371689781007,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"%h2\n  List of Blogs \n#search-results\n  = render 'search_results'         \n          \n= link_to 'New', new_blog_url\n "]],"start1":0,"start2":0,"length1":0,"length2":116}]],"length":116}
+{"contributors":[],"silentsave":false,"ts":1381190719950,"patch":[[{"diffs":[[-1,"%h2\n  List of Blogs \n#search-results\n  = render 'search_results'         \n          \n= link_to 'New', new_blog_url\n "]],"start1":0,"start2":0,"length1":116,"length2":0}]],"length":0,"saved":false}
+{"ts":1381190759744,"patch":[[{"diffs":[[1,"# Place all the behaviors and hooks related to the matching controller here.\n# All this logic will automatically be "]],"start1":0,"start2":0,"length1":0,"length2":116}]],"length":116,"saved":false}
+{"ts":1381190802970,"patch":[[{"diffs":[[-1,"# Place all the behaviors and hooks related to the matching controller here.\n# All this logic will automatically be "]],"start1":0,"start2":0,"length1":116,"length2":0}]],"length":0,"saved":false}
+{"ts":1381190857956,"patch":[[{"diffs":[[1,"%h1\n  List of Blogs\n  "]],"start1":0,"start2":0,"length1":0,"length2":22}]],"length":22,"saved":false}
+{"ts":1381190872167,"patch":[[{"diffs":[[0,"f Blogs\n"],[-1,"  "],[1,"#search-results"]],"start1":12,"start2":12,"length1":10,"length2":23}]],"length":35,"saved":false}
+{"ts":1381190983234,"patch":[[{"diffs":[[0,"-results"],[1,"\n  = render 'search_results'\n=link_to 'New', new_blog_url"]],"start1":27,"start2":27,"length1":8,"length2":65}]],"length":92,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381282594549,"patch":[[{"diffs":[[0,"ogs\n"],[-1,"#search-results"],[0,"\n  ="]],"start1":16,"start2":16,"length1":23,"length2":8}]],"length":77,"saved":false}
+{"ts":1381282658694,"patch":[[{"diffs":[[0,"f Blogs\n"],[1,"#search-results"],[0,"\n  = ren"]],"start1":12,"start2":12,"length1":16,"length2":31}]],"length":92,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381343590275,"patch":[[{"diffs":[[-1,"%h1\n  List of Blogs\n#search-results\n  = render 'search_results'\n=link_to 'New', new_blog_url"],[1,"= render 'search_results'\n"]],"start1":0,"start2":0,"length1":92,"length2":26}]],"length":26,"saved":false}
+{"ts":1381345614442,"patch":[[{"diffs":[[1,"%h1\n  List of Blogs\n"],[0,"= render"]],"start1":0,"start2":0,"length1":8,"length2":28}]],"length":46,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381459101603,"patch":[[{"diffs":[[0,"f Blogs\n"],[1,"onload=\"checkCookie()\"\n"],[0,"= render"]],"start1":12,"start2":12,"length1":16,"length2":39}]],"length":69,"saved":false}
+{"ts":1381459204451,"patch":[[{"diffs":[[0,"f Blogs\n"],[1,"%"],[0,"onload=\""]],"start1":12,"start2":12,"length1":16,"length2":17}]],"length":70,"saved":false}
+{"ts":1381459295912,"patch":[[{"diffs":[[0,"ogs\n"],[-1,"%onload=\"checkCookie()\""],[0,"\n= r"]],"start1":16,"start2":16,"length1":31,"length2":8}]],"length":47,"saved":false}
+{"ts":1381459302213,"patch":[[{"diffs":[[0,"f Blogs\n"],[-1,"\n"],[0,"= render"]],"start1":12,"start2":12,"length1":17,"length2":16}]],"length":46,"saved":false}
+{"ts":1381460797029,"patch":[[{"diffs":[[0,"f Blogs\n"],[1,"{onload: \"checkCookies()\"}\n"],[0,"= render"]],"start1":12,"start2":12,"length1":16,"length2":43}]],"length":73,"saved":false}
+{"ts":1381460816447,"patch":[[{"diffs":[[0,"ogs\n"],[-1,"{onload: \"checkCookies()\"}"],[0,"\n= r"]],"start1":16,"start2":16,"length1":34,"length2":8}]],"length":47,"saved":false}
+{"ts":1381464091013,"patch":[[{"diffs":[[1,"#index-page\n"],[0,"%h1\n  Li"]],"start1":0,"start2":0,"length1":8,"length2":20}]],"length":59,"saved":false}
+{"ts":1381464838450,"patch":[[{"diffs":[[0,"age\n"],[1,"  "],[0,"%h1\n"],[1,"  "],[0,"  Li"]],"start1":8,"start2":8,"length1":12,"length2":16}]],"length":63,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1381465708152,"patch":[[{"diffs":[[0,"dex-page"],[1," "],[0,"\n  %h1\n "]],"start1":3,"start2":3,"length1":16,"length2":17}]],"length":64,"saved":false}

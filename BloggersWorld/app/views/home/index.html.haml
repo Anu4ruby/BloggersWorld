@@ -1,0 +1,17 @@
+.hero-unit
+  %p
+    %b
+      Hello Friends!
+
+  %p
+    Welcome to the 
+    %i 
+      %b Bloggers Tryst!
+  %p
+    This website is designed to encouraged users to share their thoughts on any topic they can think of! feel free to register for free and have fun!
+  %p
+    //  = button_to for post, link_to for get method
+    
+    = button_to "Get Started", { action: "index", :controller=>"/blogs"},form_class: "btn btn-large btn-success"
+
+

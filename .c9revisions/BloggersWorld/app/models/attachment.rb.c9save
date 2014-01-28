@@ -1,0 +1,10 @@
+{"ts":1371603392722,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Attachment < ActiveRecord::Base\n  belongs_to :attachable\n  attr_accessible :description, :file\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":105}]],"length":105}
+{"contributors":[],"silentsave":false,"ts":1371701685970,"patch":[[{"diffs":[[0,"tachable"],[1,", :polymorphic => true"],[0,"\n  attr_"]],"start1":54,"start2":54,"length1":16,"length2":38},{"diffs":[[0,"n, :"],[-1,"file"],[1,"image\n  \n  mount_uploader :image, FileUploader"],[0,"\nend"]],"start1":114,"start2":114,"length1":12,"length2":54}]],"length":169,"saved":false}
+{"ts":1371701698548,"patch":[[{"diffs":[[0,"ge, "],[-1,"Fil"],[1,"imag"],[0,"eUpl"]],"start1":148,"start2":148,"length1":11,"length2":12}]],"length":170,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1371755610162,"patch":[[{"diffs":[[0,", :image"],[1,", :file"],[0,"\n  \n  mo"]],"start1":115,"start2":115,"length1":16,"length2":23}]],"length":177,"saved":false}
+{"ts":1371755683514,"patch":[[{"diffs":[[0,"mage"],[-1,", :file"],[0,"\n  \n"]],"start1":119,"start2":119,"length1":15,"length2":8}]],"length":170,"saved":false}
+{"ts":1371756055222,"patch":[[{"diffs":[[0,":image, "],[-1,"i"],[1,"I"],[0,"mageUplo"]],"start1":144,"start2":144,"length1":17,"length2":17}]],"length":170,"saved":false}
+{"ts":1371756162217,"patch":[[{"diffs":[[0,", :image"],[1,", :file"],[0,"\n  \n  mo"]],"start1":115,"start2":115,"length1":16,"length2":23}]],"length":177,"saved":false}
+{"ts":1371756182110,"patch":[[{"diffs":[[0,"mage"],[-1,", :file"],[0,"\n  \n"]],"start1":119,"start2":119,"length1":15,"length2":8}]],"length":170,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1371758302563,"patch":[[{"diffs":[[0,", :image"],[1,", :file"],[0,"\n  \n  mo"]],"start1":115,"start2":115,"length1":16,"length2":23}]],"length":177,"saved":false}
+{"ts":1371773842949,"patch":[[{"diffs":[[0,"mage"],[-1,", :file"],[0,"\n  \n"]],"start1":119,"start2":119,"length1":15,"length2":8}]],"length":170,"saved":false}

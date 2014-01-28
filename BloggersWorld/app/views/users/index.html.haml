@@ -1,0 +1,14 @@
+%table
+  %tr
+    %td email
+    %td created_at 
+  - @users.each do |user|  
+    %tr
+      %td= user.email        
+      %td= user.created_at
+      %td 
+        // = link_to 'Show', blog_url(blog)
+        // = link_to 'Edit', edit_blog_url(blog)
+        // = link_to 'Delete', blog_url(blog), :method => :delete, :confirm => 'Are you sure?'
+        // = render :partial => 'comment'
+        

@@ -1,0 +1,45 @@
+%h1 Blog Details
+%p
+  %b Name
+  %br
+  = @blog.Name
+  %br
+%p
+  %b Title
+  %br
+    = @blog.Title
+  %br
+    
+  %b Contents
+  %br
+    = @blog.Contents
+  %br    
+  %b Images
+  %br
+  %ul
+    - for attachment in @blog.attachments
+      %li      
+        = image_tag( attachment.image_url)
+    
+    
+%h2 Visits:
+%p
+  %span.gray Total:
+  = @blog.visit.total_visits rescue 0
+%p
+  %span.gray Unique:
+  = @blog.visit.unique_visits rescue 0
+    
+%h3 Comments
+= render @blog.comments
+
+    
+%h3 Add a comment:
+= render "comments/form"
+%br/
+.form-actions
+  = link_to 'Back', blogs_path, :class => 'btn'
+  = link_to 'Edit', edit_blog_path(@blog), :class => 'btn'
+  = link_to 'Delete', blog_path(@blog), :method => 'delete', :confirm => 'Are you sure?'
+  
+ 

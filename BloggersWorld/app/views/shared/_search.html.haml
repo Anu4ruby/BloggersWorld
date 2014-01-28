@@ -1,0 +1,8 @@
+.search
+  = form_tag("/blogs/search", :method => "get" , :remote => true, 'search-result-target' => 'search-results') do
+    = label_tag(:q, "Search for blogs:")
+    = text_field_tag(:q)
+    = submit_tag("Search")
+// 
+    
+ 

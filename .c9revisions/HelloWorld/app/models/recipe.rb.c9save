@@ -1,0 +1,4 @@
+{"ts":1368386478397,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Recipe < ActiveRecord::Base\n  attr_accessible :ingredients, :name\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":76}]],"length":76}
+{"contributors":[],"silentsave":false,"ts":1369169290705,"patch":[[{"diffs":[[0,"s, :name"],[1,", :User_id"],[0,"\nend\n"]],"start1":63,"start2":63,"length1":13,"length2":23}]],"length":86,"saved":false}
+{"ts":1369169707931,"patch":[[{"diffs":[[0,"name"],[-1,", :User_id"],[0,"\nend"]],"start1":67,"start2":67,"length1":18,"length2":8}]],"length":76,"saved":false}
+{"ts":1369170016702,"patch":[[{"diffs":[[0,", :name\n"],[1,"  \n  belongs_to :user\n"],[0,"end\n"]],"start1":64,"start2":64,"length1":12,"length2":34}]],"length":98,"saved":false}

@@ -1,0 +1,2 @@
+{"ts":1368141966661,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class UsersController < ApplicationController\n   def index end\nend"]],"start1":0,"start2":0,"length1":0,"length2":66}]],"length":66}
+{"contributors":[],"silentsave":false,"ts":1368210287027,"patch":[[{"diffs":[[0,"ef index"],[1,"\n       @user = User.first\n  "],[0," end\nend"]],"start1":50,"start2":50,"length1":16,"length2":45}]],"length":95,"saved":false}

@@ -1,0 +1,2 @@
+{"ts":1371061969462,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1371062004442,"patch":[[{"diffs":[[1,"- if user_signed_in?\r\n  %p\r\n    Hello #{current_user.email}\r\n    %br/\r\n    = link_to 'Sign out', destroy_user_session_path, :method => :delete\r\n- else\r\n  %p\r\n    = link_to 'Register', new_user_registration_path\r\n    |\r\n    \\#{link_to 'Sign in', new_user_session_path}"]],"start1":0,"start2":0,"length1":0,"length2":267}]],"length":267,"saved":false}

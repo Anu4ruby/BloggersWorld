@@ -1,0 +1,69 @@
+class Car
+  @@windshield = "Glass"
+  # Initialization
+  def initialize(type, name)  
+    # Instance variables  
+    @type = type  
+    @name = name  
+  end  
+  
+  def run
+    puts 'wroom! wroom!'  
+  end  
+  
+  def display  
+    puts "I am of #{@type} type and my name is #{@name}"  
+  end
+  
+  def self.noise_level_of_all_cars
+    p @type
+    p @@windshield
+    puts "Standard"
+  end
+end  
+  
+# Object construction
+c = Car.new('Ferrari', 'Quicky')  
+
+# puts c.methods.sort  
+  
+puts "The id of car(c) is #{c.object_id}."  
+p c.inspect
+
+if c.respond_to?("fly")  
+  c.fly  
+else  
+  puts "Sorry, c doesn't understand the 'fly' message."  
+end  
+  
+c.run  
+c.display  
+  
+c_new = c   
+c_new.display  
+
+Car.noise_level_of_all_cars
+Car.number_of_tyres_of_all_cars
+c = nil 
+p "old object display"
+c.display  
+p "now new object copy"
+c_new.display
+c_new = nil
+c_new.display
+
+# The Ruby object heap allocates a minimum of 8 megabytes. Ruby's GC is called mark-and-sweep.
+
+# Without calling new method these can be constructed
+# String - 'hello' or "hello"
+# Symbol - :symbol or :"hello world"
+# Array - [x, y, z]
+# Hash - {"India" => "IN"}
+# Range - 3..7 or 3...7
+
+# # Class methods
+def Car.number_of_tyres_of_all_cars
+  puts "four"
+end
+
+Car.number_of_tyres_of_all_cars

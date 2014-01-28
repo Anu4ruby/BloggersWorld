@@ -1,0 +1,7 @@
+{"ts":1368347223187,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"a = gets.chomp.to_i\ni=1\np i\na.times do\n{\n\ni= i+2\n\np i\n\n}\nend"]],"start1":0,"start2":0,"length1":0,"length2":60}]],"length":60}
+{"contributors":[],"silentsave":false,"ts":1368347230135,"patch":[[{"diffs":[[0," do\n"],[-1,"{\n\n"],[0,"i= i+2\n"],[-1,"\n"],[0,"p i"],[-1,"\n\n}"],[0,"\nend"]],"start1":35,"start2":35,"length1":25,"length2":18}]],"length":53,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1368405519855,"patch":[[{"diffs":[[0,"o_i\n"],[-1,"i=1\np i"],[1,"p \"The number entered by user is \" + a.to_s\ni=1"],[0,"\na.t"]],"start1":16,"start2":16,"length1":15,"length2":55}]],"length":93,"saved":false}
+{"ts":1368405612676,"patch":[[{"diffs":[[0,"o_s\ni=1\n"],[1,"p i\n"],[0,"a.times "]],"start1":60,"start2":60,"length1":16,"length2":20}]],"length":97,"saved":false}
+{"ts":1368405698702,"patch":[[{"diffs":[[0,"o_s\ni=1\n"],[1,"p \"The\" + a.to_s + \"odd numbers from 1 are:\"\n"],[0,"p i\na.ti"]],"start1":60,"start2":60,"length1":16,"length2":61}]],"length":142,"saved":false}
+{"ts":1368405719895,"patch":[[{"diffs":[[0,"1\np \"The"],[1," "],[0,"\" + a.to"]],"start1":66,"start2":66,"length1":16,"length2":17}]],"length":143,"saved":false}
+{"ts":1368405738860,"patch":[[{"diffs":[[0,"to_s + \""],[1," "],[0,"odd numb"]],"start1":81,"start2":81,"length1":16,"length2":17}]],"length":144,"saved":false}

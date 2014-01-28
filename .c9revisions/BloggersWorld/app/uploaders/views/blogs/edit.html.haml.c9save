@@ -1,0 +1,3 @@
+{"ts":1370205735353,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1370205748414,"patch":[[{"diffs":[[1,"= render :partial => 'form'\n"]],"start1":0,"start2":0,"length1":0,"length2":28}]],"length":28,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1370822240564,"patch":[[{"diffs":[[0," 'form'\n"],[1,"= render :partial => 'photo_form'\n"]],"start1":20,"start2":20,"length1":8,"length2":42}]],"length":62,"saved":false}

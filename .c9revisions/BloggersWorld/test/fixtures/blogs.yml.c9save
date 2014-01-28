@@ -1,0 +1,1 @@
+{"ts":1381346308350,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html\n\none:\n  Name: MyString\n  Title: MyString\n  Contents: MyString\n\ntwo:\n  Name: MyString\n  Title: MyString\n  Contents: MyString\n"]],"start1":0,"start2":0,"length1":0,"length2":211}]],"length":211}

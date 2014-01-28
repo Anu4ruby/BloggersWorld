@@ -1,0 +1,10 @@
+{"ts":1370269710239,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1370269723866,"patch":[[{"diffs":[[1,"= form_for([@blog, @blog.comments.build]) do |f|\n  .field\n    = f.label :commenter\n    %br/\n    = f.text_field :Name\n  .field\n    = f.label :body\n    %br/\n    = f.text_area :Body\n  .actions\n    = f.submit  \n"]],"start1":0,"start2":0,"length1":0,"length2":207}]],"length":207,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1370271578320,"patch":[[{"diffs":[[0,"m_for([@"],[-1,"b"],[1,"B"],[0,"log, @bl"]],"start1":5,"start2":5,"length1":17,"length2":17}]],"length":207,"saved":false}
+{"ts":1370271591042,"patch":[[{"diffs":[[0,"m_for([@"],[-1,"B"],[1,"b"],[0,"log, @bl"]],"start1":5,"start2":5,"length1":17,"length2":17}]],"length":207,"saved":false}
+{"ts":1370271597263,"patch":[[{"diffs":[[0,"@blog, @"],[-1,"b"],[1,"B"],[0,"log.comm"]],"start1":12,"start2":12,"length1":17,"length2":17}]],"length":207,"saved":false}
+{"ts":1370271628205,"patch":[[{"diffs":[[0,", @Blog."],[-1,"c"],[1,"C"],[0,"omments."]],"start1":17,"start2":17,"length1":17,"length2":17}]],"length":207,"saved":false}
+{"ts":1370271642856,"patch":[[{"diffs":[[0,"log."],[-1,"C"],[1,"c"],[0,"omme"]],"start1":21,"start2":21,"length1":9,"length2":9}]],"length":207,"saved":false}
+{"ts":1370271647078,"patch":[[{"diffs":[[0,"@blog, @"],[-1,"B"],[1,"b"],[0,"log.comm"]],"start1":12,"start2":12,"length1":17,"length2":17}]],"length":207,"saved":false}
+{"ts":1370275059294,"patch":[[{"diffs":[[0,"log."],[-1,"c"],[1,"C"],[0,"omment"],[-1,"s"],[0,".bui"]],"start1":21,"start2":21,"length1":16,"length2":15}]],"length":206,"saved":false}
+{"ts":1370275076160,"patch":[[{"diffs":[[0,"log."],[-1,"C"],[1,"c"],[0,"omment"],[1,"s"],[0,".bui"]],"start1":21,"start2":21,"length1":15,"length2":16}]],"length":207,"saved":false}

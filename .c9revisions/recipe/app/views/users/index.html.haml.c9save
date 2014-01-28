@@ -1,0 +1,4 @@
+{"ts":1368207955969,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1368210446246,"patch":[[{"diffs":[[1,".name\n= @user.name"]],"start1":0,"start2":0,"length1":0,"length2":18}]],"length":18,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1368324242540,"patch":[[{"diffs":[[-1,".name\n= @user.nam"],[1,"\"Hi Anu, Welcome to the beautiful world\"\n\n.name\n= @user.name\n\n.message\n=@user.messag"],[0,"e"]],"start1":0,"start2":0,"length1":18,"length2":85}]],"length":85,"saved":false}
+{"ts":1368324556273,"patch":[[{"diffs":[[-1,"\"Hi Anu, Welcome to the beautiful world\""],[1," "],[0,"\n\n.n"]],"start1":0,"start2":0,"length1":44,"length2":5}]],"length":46,"saved":false}
